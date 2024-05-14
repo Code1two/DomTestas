@@ -1,0 +1,41 @@
+@import '~bootstrap';
+
+/* Custom styles */
+.task-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    h3 {
+        margin: 0;
+    }
+}
+
+.task-info h3 {
+    flex: 1;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.low-priority {
+    background-color: #c3e6cb;
+}
+
+.medium-priority {
+    background-color: #ffeeba;
+}
+
+.high-priority {
+    background-color: #f5c6cb;
+}
